@@ -1,5 +1,6 @@
 # main.py
 Пульт охраны банка. 
+Пульт охраны - это сайт, который берет данные из удаленных баз (визиты и пропуска сотруднков).
 После запуска 'пульт' доступен по адресу: http://127.0.0.1:8000. 
 
 # Требования к окружению
@@ -16,9 +17,9 @@ PIP install -r requirements.txt
 ```
 python main.py
 ```
-Примеры успешного запуска скрипта:
-<img width="1073" alt="image" src="https://user-images.githubusercontent.com/55636018/221362213-aaa41155-b01e-4b68-a27f-0108f3ae796e.png">
+# Примеры успешного запуска скрипта:
 
+<img width="1073" alt="image" src="https://user-images.githubusercontent.com/55636018/221362213-aaa41155-b01e-4b68-a27f-0108f3ae796e.png">
 
 <img width="1072" alt="image" src="https://user-images.githubusercontent.com/55636018/221362241-c271bddc-2875-4f05-9de7-b95283326bd3.png">
 
