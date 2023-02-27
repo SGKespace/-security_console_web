@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from django.utils import timezone
 
+from datacenter.models import get_duration, format_duration, is_visit_long
 from datacenter.models import Visit
-from .passcard_info_view import format_duration, get_duration
+
 
 
 def storage_information_view(request):

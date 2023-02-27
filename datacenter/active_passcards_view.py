@@ -1,5 +1,7 @@
 from datacenter.models import Passcard
+from datacenter.models import Visit
 from django.shortcuts import render
+from django.utils import timezone
 
 
 def active_passcards_view(request):
