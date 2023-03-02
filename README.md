@@ -8,6 +8,7 @@
 Python 3.xx и выше (должен быть уже установлен)
 django==3.2.*
 psycopg2-binary==2.9.*
+django-debug-toolbar==3.2
 ```
 Можно установить командой  
 ``` 
@@ -15,7 +16,7 @@ PIP install -r requirements.txt
 ```
 Для того чтобы запустить скрипт, войдите в директорию со скриптом и запустите команду:
 ```
-python main.py
+ python3 manage.py runserver
 ```
 # Примеры успешного запуска скрипта:
 
