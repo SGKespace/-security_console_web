@@ -14,6 +14,22 @@ django-debug-toolbar==3.2
 ``` 
 PIP install -r requirements.txt
 ```
+# Переменные окружения
+Пример файла .env
+```
+DB_ENGINE='django.db.backends.postgresql_psycopg2'
+DB_HOST='checkpoint.devman.org'
+DB_PORT='5434'
+DB_NAME='checkpoint'
+DB_USER='guard'
+DB_PASSWORD='osim5'
+
+SECRET_KEY='REPLACE_ME'
+
+DEBUG=TRUE
+
+ALLOWED_HOSTS=['*']
+```
 Для того чтобы запустить скрипт, войдите в директорию со скриптом и запустите команду:
 ```
  python3 manage.py runserver
