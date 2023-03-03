@@ -9,6 +9,7 @@ Python 3.xx и выше (должен быть уже установлен)
 django==3.2.*
 psycopg2-binary==2.9.*
 django-debug-toolbar==3.2
+environs==9.5.0
 ```
 Можно установить командой  
 ``` 
