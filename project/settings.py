@@ -21,7 +21,6 @@ INSTALLED_APPS = ['datacenter']
 SECRET_KEY = env("SECRET_KEY")
 
 DEBUG = env.bool("DEBUG")
-print('DEBUG  ', DEBUG)
 
 ROOT_URLCONF = 'project.urls'
 
@@ -47,8 +46,6 @@ TIME_ZONE = 'Europe/Moscow'
 USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
-
-
 
 MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
